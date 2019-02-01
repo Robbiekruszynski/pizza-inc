@@ -14,11 +14,54 @@ body{
 
 #submit{
   background-color: red;
-  margin-left: 45%
+  margin-left: 43%;
 }
 
 #cost {
-  margin-left: 15%
+  margin-left: 16%;
+}
+.button {
+padding: 15px 25px;
+ font-size: 24px;
+ text-align: center;
+ cursor: pointer;
+ outline: none;
+ color: #fff;
+ background-color: #4CAF50;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {
+  margin-right: 43%;
+  margin-top: 10%;
+}
+
+.btn {
+padding: 15px 25px;
+ font-size: 24px;
+ text-align: center;
+ cursor: pointer;
+ outline: none;
+ color: #fff;
+ background-color: #4CAF50;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;
+}
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .modalDialog {
@@ -78,9 +121,14 @@ body{
 .close:hover {
   background: #00d9ff;
 }
-
+.order-special{
+  text-align: center;
+}
+.form-name {
+  margin-left: 32%;
+}
 .result {
-  margin-left: 37%
+  margin-left: 37%;
 }
 
 .form-group{
