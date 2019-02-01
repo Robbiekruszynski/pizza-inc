@@ -11,9 +11,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Setup/Installation Requirements
 
 * Open your preferred browser
-* to view live project please visit:https://robbiekruszynski.github.io/beep-boop/
-* Or copy / paste https://github.com/Robbiekruszynski/beep-boop be sure you're in your Desktop directory
-* clone or download https://github.com/Robbiekruszynski/beep-boop.git your Desktop
+* to view live project please visit:https://robbiekruszynski.github.io/pizza-inc/
+* Or copy / paste https://github.com/Robbiekruszynski/pizza-inc be sure you're in your Desktop directory
+* clone or download https://github.com/Robbiekruszynski/pizza-inc.git your Desktop
 * Open the beep-boop folder and run index.html with your selected browser
 * Explore Beep-Boop!
 * For those whom wish to alter or view the code please use your preferred text editor
