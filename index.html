@@ -12,15 +12,31 @@
       <div class = "jumbotron">
         <h1> .ZA. </h1>
       </div>
-      <form>
+      <form id="form">
         <select class ="pizzaSize">
-          <option></option>
-          <option>Small - 10"</option>
-          <option>Medium -12"</option>
-          <option>Large - 14"</option>
-          <option>Extra Large - 18"</option>
+          <option value=0></option>
+          <option value=15>Small - 15"</option>
+          <option value=25>Medium -20"</option>
+          <option value=35>Large - 25"</option>
+          <option value=45>Extra Large - 30"</option>
           <select>
       </form>
+      <form id="form">
+        <div class="form-group">
+          <input type="checkbox" id="olives" value="3"> Black bella di cerignola olives<br>
+          <!-- <input type="submit" value="submit"> -->
+          <input type="checkbox" id="mushrooms" value="5"> Wild morel mushrooms<br>
+          <!-- <input type="submit" value="submit"> -->
+          <input type="checkbox" id="truffles" value="10"> Fresh black winter truffles<br>
+          <!-- <input type="submit" value="submit"> -->
+          <input type="checkbox" id="gold" value="15"> 24k Gold leaf<br>
+        </div>
+    <!-- <button type="submit" class="btn btn-primary" id="submit">Total</button> -->
+      </form>
+        <button type="submit" class="btn btn-primary" id="submit">Total</button>
+        <div class="result">
+          <h3>Total cost of order<span id="cost">  $$$$$</span></p>
+        </div>
     </div>
   </body>
 </html>
