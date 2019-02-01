@@ -5,13 +5,6 @@
   text-shadow: 2px 2px 4px #000000;
 }
 
-body {
-  color: grey
-  /* background-image: url(../img/body.jpg);
-  background-size: auto; */
-  opacity: .8;
-}
-
 #introText {
   text-align: center;
 }
@@ -75,14 +68,16 @@ body {
 	-webkit-box-shadow: 1px 1px 3px #000;
 	box-shadow: 1px 1px 3px #000;
 }
-
+.contact {
+  text-align: center;
+}
 .close:hover {
   background: #00d9ff;
 }
 
-/* #form {
-  padding-left: 20px;
-} */
+.result {
+  margin-left: 37%
+}
 
 .form-group{
   padding-left: 20px;
@@ -94,11 +89,16 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
+#cost {
+  margin-left: 15%
+}
 li {
   float: left;
 }
-
+#submit{
+  background-color: red;
+  margin-left: 45%
+}
 li a, .dropbtn {
   display: inline-block;
   color: white;

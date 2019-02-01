@@ -8,19 +8,13 @@
     <title>pizza-inc</title>
   </head>
     <body>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Made</a></li>
+        <li><a href="custom.html">Custom</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
-
-
-
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="order.html">Made</a></li>
-  <li><a href="custom.html">Custom</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
-
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
       <div class ="container">
         <div class ="jumbotron">
           <h1> .ZA. </h1>
@@ -39,10 +33,10 @@
             <h6>select a size:</h6>
             <select class="form-control" id="pizza-size" size="1">
               <option></option>
-              <option value= "10">Yours-8inch</option>
-              <option value= "15">Small-12inch</option>
-              <option value= "20">Medium-15inch</option>
-              <option value= "30">Large-20inch</option>
+              <option value= "10">8inch-$10</option>
+              <option value= "15">12inch-$15</option>
+              <option value= "20">15inch-$20</option>
+              <option value= "30">20inch-$30</option>
             </select>
           </div>
           <!-- modal work  -->
@@ -67,43 +61,38 @@
 
         	   </div>
          </div>
-
-
            <!-- cheese selection -->
-          </div>
-          <div class="form-group">
-            <h6>select your cheese:</h6>
-            <input type="checkbox" id="cheese" name="toppings" value="5"> Granduca Di Mandas<br>
-
-
-            <input type="checkbox" id="cheese" name="toppings" value="5"> Il Giunco<br>
-
-            <input type="checkbox" id="cheese" name="toppings" value="5"> Colline Di Mandas Stagionato <br>
-
-            <input type="checkbox" id="cheese" name="toppings" value="5"> Colline Di Mandas Semistagionato <br>
-
-            <input type="checkbox" id="cheese" name="toppings" value="5"> Su Zinnibiri<br>
-
-            <input type="checkbox" id="cheese" name="toppings" value="50"> Casu marzu<br>
-
-          </div>
-
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <h6>select your cheese:</h6>
+                <input type="checkbox" id="cheese" name="toppings" value="5"> Granduca Di Mandas $5<br>
+                <input type="checkbox" id="cheese" name="toppings" value="5"> Il Giunco $5<br>
+                <input type="checkbox" id="cheese" name="toppings" value="5"> Colline Di Mandas Stagionato $5<br>
+                <input type="checkbox" id="cheese" name="toppings" value="5"> Colline Di Mandas Semistagionato $5<br>
+                <input type="checkbox" id="cheese" name="toppings" value="5"> Su Zinnibiri $5<br>
+                <input type="checkbox" id="cheese" name="toppings" value="50"> Casu marzu $50<br>
+              </div>
+                <a href="#openModal">Details on cheese selection</a>
+            </div>
           <!-- modal box -->
-          <a href="#openModal">Details on cheese selection</a>
+
           <!-- topping selection  -->
-
-          <div class="form-group">
-            <h6>addiotional toppings:</h6>
-            <input type="checkbox" id="olives" name="toppings" value="3"> Black bella di cerignola olives<br>
-            <input type="checkbox" id="mushrooms" name="toppings" value="5"> Wild morel mushrooms<br>
-            <input type="checkbox" id="truffles" name="toppings" value="20"> Fresh black winter truffles<br>
-            <input type="checkbox" id="gold" name="toppings" value="30"> 24k Gold leaf<br>
+          <div class="col-md-6">
+            <div class="form-group">
+              <h6>addiotional toppings:</h6>
+              <input type="checkbox" id="olives" name="toppings" value="3"> Black bella di cerignola olives $3<br>
+              <input type="checkbox" id="mushrooms" name="toppings" value="5"> Wild morel mushrooms $5<br>
+              <input type="checkbox" id="truffles" name="toppings" value="20"> Fresh black winter truffles $20<br>
+              <input type="checkbox" id="gold" name="toppings" value="30"> 24k Gold leaf $30<br>
+            </div>
           </div>
-
+        </div>
           <button type="submit" class="btn btn-primary" id="submit">Total</button>
         </form>
           <div class="result">
-            <h4>Total cost of order<span id="cost"> </span></h4>
+            <h3>Total cost of order</h3>
+            <h3> <span id="cost"> </span><h3>
           </div>
       </div>
   </body>

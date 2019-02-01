@@ -7,16 +7,16 @@ function Pizza() {
 
   Pizza.prototype.userSize = function (size) {
 
-    if(size === "Yours-15inch") {
+    if(size === "8inch") {
     this.size = 10;
 
-  }else if(size === "Small-12inch") {
+  }else if(size === "12inch") {
     this.size = 20;
 
-  }else if(size === "Medium-15inch") {
+  }else if(size === "15inch") {
     this.size = 30;
 
-  }else if(size === "Large-20inch") {
+  }else if(size === "20inch") {
     this.size = 40;
   }
 
