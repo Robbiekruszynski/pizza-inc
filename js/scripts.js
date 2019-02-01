@@ -1,5 +1,4 @@
 //back end logic
-
 function Pizza() {
   this.size = [];
   this.toppings = [];
@@ -7,16 +6,17 @@ function Pizza() {
 }
 
   Pizza.prototype.userSize = function (size) {
-  if (size === "Yours") {
+
+    if(size === "Yours-15inch") {
     this.size = 10;
 
-  }else if(size === "Small") {
+  }else if(size === "Small-12inch") {
     this.size = 20;
 
-  }else if(size === "Medium") {
+  }else if(size === "Medium-15inch") {
     this.size = 30;
 
-  }else if(size === "Large") {
+  }else if(size === "Large-20inch") {
     this.size = 40;
   }
 
@@ -34,18 +34,19 @@ Pizza.prototype.userToppings = function () {
 
   }else if (this.toppings ==="gold"){
     this.topping = 30;
+
+  }else if (this.topping ==="cheese"){
+    this.topping = 30;
+
   }else {
     this.toppings = 0;
   }
 
 }
 
-
-
 Pizza.prototype.totalPrice = function() {
   return this.size += this.toppings;
 }
-
 
 //front end logic
 $(document).ready(function() {
