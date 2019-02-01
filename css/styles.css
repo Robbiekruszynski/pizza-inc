@@ -1,8 +1,20 @@
 .jumbotron {
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 }
 
+body {
+  color: grey
+  /* background-image: url(../img/body.jpg);
+  background-size: auto; */
+  opacity: .8;
+}
+
+#introText {
+  text-align: center;
+}
 /* h1 {
   text-align: center;
   text-shadow: 10px;

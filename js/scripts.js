@@ -20,3 +20,19 @@ Pizza.prototype.userSize = function (size) {
     this.size = 40;
 
 };
+
+Pizza.prototype.userTopping = function (topping) {
+  if (topping ==="olives") {
+    this.topping = 3;
+
+  }  (topping ==="mushrooms"){
+    this.topping = 5;
+
+  }  (topping ==="truffles"){
+    this.topping = 20;
+
+  }  (topping ==="gold"){
+    this.topping = 30;
+  }
+
+};
