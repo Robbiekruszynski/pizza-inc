@@ -20,6 +20,10 @@ body{
 #cost {
   margin-left: 16%;
 }
+
+#house-cost {
+  margin-right: 12%;
+}
 .button {
 padding: 15px 25px;
  font-size: 24px;
@@ -130,7 +134,9 @@ padding: 15px 25px;
 .result {
   margin-left: 37%;
 }
-
+.result-house {
+  margin-right: 1%
+}
 .form-group{
   padding-left: 20px;
 }
