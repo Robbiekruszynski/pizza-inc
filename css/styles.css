@@ -92,6 +92,7 @@ padding: 5px 8px;
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
+
 .modalDialogTwo:target {
 	opacity:1;
 	pointer-events: auto;
@@ -108,6 +109,7 @@ padding: 5px 8px;
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
 }
+
 .close2 {
 	background: #606061;
 	color: #FFFFFF;
@@ -127,7 +129,9 @@ padding: 5px 8px;
 	box-shadow: 1px 1px 3px #000;
 }
 
-.close2:hover { background: #00d9ff; }
+.close2:hover {
+  background: #00d9ff;
+}
 
 
 .modalDialog {

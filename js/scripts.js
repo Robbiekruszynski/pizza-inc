@@ -54,12 +54,6 @@ $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
 
-$("#button").click(function(event){
-    var nameInput = $("#name").val();
-    $(".name").text(nameInput);
-    console.log(name);
-});
-  console.log(name);
     var pizzaSize = parseInt($("#pizza-size").val());
     var totalToppings = 0;
     $("input:checkbox[name=toppings]:checked").each(function() {
