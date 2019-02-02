@@ -6,7 +6,8 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Website buildout using objects and prototypes to create a field where the user can select a pre built or
+build their own pizza. Utilizing navigation bar between html tabs that allow for different inputs.  
 
 ## Setup/Installation Requirements
 
