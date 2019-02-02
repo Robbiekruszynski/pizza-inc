@@ -19,6 +19,19 @@
       <div class ="jumbotron">
         <h1> .ZA. </h1>
       </div>
+      <a href="#openModalTwo">Details on house specials</a>
+
+<div id="openModalTwo" class="modalDialogTwo">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Margherita </h2>
+		<p>Pizza with fresh tomatos, mozzarella from southern Italy, and fresh picked basil.</p>
+		<h2>Spinach and mushroom</h2>
+    <p>Fresh local spinach, with season mushroms.</p>
+    <h2>Frutti di Mare</h2>
+    <p>An Italian type of pizza that may be served with scampi, mussels and or squid. It typically lacks cheese, with the seafood being served atop a tomato sauce.</p>
+	</div>
+</div>
         <div class = "order-special">
           <h2> House specials </h2>
           <form id="form">
@@ -26,15 +39,24 @@
               <h6>select a special:</h6>
               <select class="form-control" id="pizza-size" size="1">
                 <option></option>
-                <option value= "15">8inch margartia $15</option>
-                <option value= "15">8inch $15</option>
-                <option value= "20">12inch margartia $20</option>
-                <option value= "20">12inch margartia $20</option>
-                <option value= "20">15inch margartia $30</option>
-                <option value= "20">15inch $30</option>
-                <option value= "30">20inch margartia $30</option>
+                <option value= "15">8inch Margherita  $15</option>
+                <option value= "20">8inch Spinach and mushroom$20</option>
+                <option value= "25">8inch Frutti di Mare $25</option>
+
+                <option value= "20">12inch Margherita  $20</option>
+                <option value= "25">12inch Spinach and mushroom $25</option>
+                <option value= "30">12inch Frutti di Mare $30</option>
+
+                <option value= "25">15inch Margherita  $25</option>
+                <option value= "30">15inch Spinach and mushroom $30</option>
+                <option value= "35">15inch Frutti di Mare $35</option>
+
+                <option value= "30">20inch Margherita  $30</option>
+                <option value= "35">20inch Spinach and mushroom $35</option>
+                <option value= "40">20inch Frutti di Mare $40</option>
               </select>
             </div>
+
             <button type="submit" class="button btn-order" id="submit">Total</button>
           </form>
             <div class="result-house">
@@ -45,5 +67,6 @@
             </div>
         </div>
     </div>
+
   </body>
 </html>

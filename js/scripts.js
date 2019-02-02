@@ -23,19 +23,19 @@ function Pizza() {
 }
 
 Pizza.prototype.userToppings = function () {
-  if (this.toppings ==="olives") {
+  if (this.toppings ==="toppings") {
     this.topping = 3;
 
-  }else if (this.toppings ==="mushrooms") {
+  }else if (this.toppings ==="toppings") {
     this.topping = 5;
 
-  }else if (this.toppings ==="truffles"){
+  }else if (this.toppings ==="toppings"){
     this.topping = 20;
 
-  }else if (this.toppings ==="gold"){
+  }else if (this.toppings ==="toppings"){
     this.topping = 30;
 
-  }else if (this.topping ==="cheese"){
+  }else if (this.topping ==="toppings"){
     this.topping = 30;
 
   }else {
