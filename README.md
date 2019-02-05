@@ -14,10 +14,12 @@ build their own pizza. Utilizing navigation bar between html tabs that allow for
 Spec: The program accepts input on the made tab and reads total
 
 * Input on select: "8 inch margherita $15"
-* Output on click of Total button:"$15"
+
+Output on click of Total button:"$15"
 
 * Input on select: "20inch Frutti di Mare $40"
-* Output on click of Total button: "$40"
+
+Output on click of Total button: "$40"
 
 Spec: The program accepts input on the custom tab and reads total based on selection
 
@@ -27,7 +29,8 @@ Input on select a size:
 * Su Zinnibiri $5
 * checkbox selection(right side):
 * Wild morel mushrooms $5
-* Output on click of Total button:"$20"
+
+Output on click of Total button:"$20"
 
 Input on select a size:
 * "20inch $30"
