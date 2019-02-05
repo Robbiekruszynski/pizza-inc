@@ -23,16 +23,16 @@ Spec: The program accepts input on the custom tab and reads total based on selec
 
 Input on select a size:
 * "8inch $10"
-checkbox selection(left side):  
+* checkbox selection(left side):  
 * Su Zinnibiri $5
-checkbox selection(right side):
+* checkbox selection(right side):
 * Wild morel mushrooms $5
-Output on click of Total button:"$20"
+* Output on click of Total button:"$20"
 
 Input on select a size:
 * "20inch $30"
 
-checkbox selection(left side):
+* checkbox selection(left side):
 * Granduca Di Mandas $5
 * Il Giunco $5
 * Colline Di Mandas Stagionato $5
@@ -40,7 +40,7 @@ checkbox selection(left side):
 * Su Zinnibiri $5
 * Casu marzu $50
 
-checkbox selection(right side):
+* checkbox selection(right side):
 * Black bella di cerignola olives $3
 *  Wild morel mushrooms $5
 *  Fresh black winter truffles $20
