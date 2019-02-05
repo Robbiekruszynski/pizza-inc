@@ -31,7 +31,6 @@ Input on select a size:
 
 Input on select a size:
 * "20inch $30"
-
 * checkbox selection(left side):
 * Granduca Di Mandas $5
 * Il Giunco $5
@@ -39,12 +38,11 @@ Input on select a size:
 * Colline Di Mandas Semistagionato $5
 * Su Zinnibiri $5
 * Casu marzu $50
-
 * checkbox selection(right side):
 * Black bella di cerignola olives $3
-*  Wild morel mushrooms $5
-*  Fresh black winter truffles $20
-*  24k Gold leaf $30
+* Wild morel mushrooms $5
+* Fresh black winter truffles $20
+* 24k Gold leaf $30
 
 Output on click of Total button:"$163"
 
