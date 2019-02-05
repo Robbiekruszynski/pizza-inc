@@ -9,7 +9,7 @@
 Website buildout using objects and prototypes to create a field where the user can select a pre built or
 build their own pizza. Utilizing navigation bar between html tabs that allow for different inputs.  
 
-##Specs
+## Specs
 
 Spec: The program accepts input on the made tab and reads total
 
