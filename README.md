@@ -9,6 +9,39 @@
 Website buildout using objects and prototypes to create a field where the user can select a pre built or
 build their own pizza. Utilizing navigation bar between html tabs that allow for different inputs.  
 
+##Specs
+
+Spec: The program accepts input on the made tab and reads total 
+
+Input on select: "8 inch margherita $15"
+Output on click of Total button:"$15"
+
+Input on select: "20inch Frutti di Mare $40"
+Output on click of Total button: "$40"
+
+Spec: The program accepts input on the custom tab and reads total based on selection
+
+Input on select a size: "8inch $10"
+checkbox selection(left side):  * Su Zinnibiri $5
+checkbox selection(right side): * Wild morel mushrooms $5
+Output on click of Total button:"$20"
+
+Input on select a size: "20inch $30"
+checkbox selection(left side): Granduca Di Mandas $5
+                              * Il Giunco $5
+                              * Colline Di Mandas Stagionato $5
+                              * Colline Di Mandas Semistagionato $5
+                              * Su Zinnibiri $5
+                              * Casu marzu $50
+                               
+checkbox selection(right side): Black bella di cerignola olives $3
+                              *  Wild morel mushrooms $5
+                              *  Fresh black winter truffles $20
+                              *  24k Gold leaf $30
+                                
+Output on click of Total button:"$163"
+
+
 ## Setup/Installation Requirements
 
 * Open your preferred browser
